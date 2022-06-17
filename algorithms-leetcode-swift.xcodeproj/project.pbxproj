@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32A0782B285C13C000A3DE19 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0782A285C13C000A3DE19 /* main.swift */; };
+		32A07839285C181200A3DE19 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A07838285C181200A3DE19 /* main.swift */; };
+		32A0784C285C27A300A3DE19 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0784B285C27A300A3DE19 /* LinkedList.swift */; };
+		32A0784D285C27BC00A3DE19 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0784B285C27A300A3DE19 /* LinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		32A07825285C13C000A3DE19 /* CopyFiles */ = {
+		32A07834285C181200A3DE19 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		32A07840285C267B00A3DE19 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +34,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		32A07827285C13C000A3DE19 /* algorithms-leetcode-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "algorithms-leetcode-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32A0782A285C13C000A3DE19 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		32A07836285C181200A3DE19 /* Stack_Imp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stack_Imp; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A07838285C181200A3DE19 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		32A07842285C267B00A3DE19 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A0784B285C27A300A3DE19 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32A07824285C13C000A3DE19 /* Frameworks */ = {
+		32A07833285C181200A3DE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A0783F285C267B00A3DE19 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +61,8 @@
 		32A0781E285C13C000A3DE19 = {
 			isa = PBXGroup;
 			children = (
-				32A07829285C13C000A3DE19 /* algorithms-leetcode-swift */,
+				32A07843285C267B00A3DE19 /* DataStructure */,
+				32A07831285C17BC00A3DE19 /* Stack */,
 				32A07828285C13C000A3DE19 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,37 +70,71 @@
 		32A07828285C13C000A3DE19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32A07827285C13C000A3DE19 /* algorithms-leetcode-swift */,
+				32A07836285C181200A3DE19 /* Stack_Imp */,
+				32A07842285C267B00A3DE19 /* DataStructure */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		32A07829285C13C000A3DE19 /* algorithms-leetcode-swift */ = {
+		32A07831285C17BC00A3DE19 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
-				32A0782A285C13C000A3DE19 /* main.swift */,
+				32A07837285C181200A3DE19 /* Stack_Imp */,
 			);
-			path = "algorithms-leetcode-swift";
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		32A07837285C181200A3DE19 /* Stack_Imp */ = {
+			isa = PBXGroup;
+			children = (
+				32A07838285C181200A3DE19 /* main.swift */,
+			);
+			path = Stack_Imp;
+			sourceTree = "<group>";
+		};
+		32A07843285C267B00A3DE19 /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				32A0784B285C27A300A3DE19 /* LinkedList.swift */,
+			);
+			path = DataStructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		32A07826285C13C000A3DE19 /* algorithms-leetcode-swift */ = {
+		32A07835285C181200A3DE19 /* Stack_Imp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32A0782E285C13C000A3DE19 /* Build configuration list for PBXNativeTarget "algorithms-leetcode-swift" */;
+			buildConfigurationList = 32A0783A285C181200A3DE19 /* Build configuration list for PBXNativeTarget "Stack_Imp" */;
 			buildPhases = (
-				32A07823285C13C000A3DE19 /* Sources */,
-				32A07824285C13C000A3DE19 /* Frameworks */,
-				32A07825285C13C000A3DE19 /* CopyFiles */,
+				32A07832285C181200A3DE19 /* Sources */,
+				32A07833285C181200A3DE19 /* Frameworks */,
+				32A07834285C181200A3DE19 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "algorithms-leetcode-swift";
-			productName = "algorithms-leetcode-swift";
-			productReference = 32A07827285C13C000A3DE19 /* algorithms-leetcode-swift */;
+			name = Stack_Imp;
+			productName = Stack_Imp;
+			productReference = 32A07836285C181200A3DE19 /* Stack_Imp */;
+			productType = "com.apple.product-type.tool";
+		};
+		32A07841285C267B00A3DE19 /* DataStructure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A07846285C267B00A3DE19 /* Build configuration list for PBXNativeTarget "DataStructure" */;
+			buildPhases = (
+				32A0783E285C267B00A3DE19 /* Sources */,
+				32A0783F285C267B00A3DE19 /* Frameworks */,
+				32A07840285C267B00A3DE19 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataStructure;
+			productName = DataStructure;
+			productReference = 32A07842285C267B00A3DE19 /* DataStructure */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -92,7 +147,10 @@
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					32A07826285C13C000A3DE19 = {
+					32A07835285C181200A3DE19 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					32A07841285C267B00A3DE19 = {
 						CreatedOnToolsVersion = 14.0;
 					};
 				};
@@ -110,17 +168,27 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32A07826285C13C000A3DE19 /* algorithms-leetcode-swift */,
+				32A07835285C181200A3DE19 /* Stack_Imp */,
+				32A07841285C267B00A3DE19 /* DataStructure */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		32A07823285C13C000A3DE19 /* Sources */ = {
+		32A07832285C181200A3DE19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32A0782B285C13C000A3DE19 /* main.swift in Sources */,
+				32A0784D285C27BC00A3DE19 /* LinkedList.swift in Sources */,
+				32A07839285C181200A3DE19 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A0783E285C267B00A3DE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A0784C285C27A300A3DE19 /* LinkedList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +308,7 @@
 			};
 			name = Release;
 		};
-		32A0782F285C13C000A3DE19 /* Debug */ = {
+		32A0783B285C181200A3DE19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +319,29 @@
 			};
 			name = Debug;
 		};
-		32A07830285C13C000A3DE19 /* Release */ = {
+		32A0783C285C181200A3DE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		32A07847285C267B00A3DE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		32A07848285C267B00A3DE19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -274,11 +364,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32A0782E285C13C000A3DE19 /* Build configuration list for PBXNativeTarget "algorithms-leetcode-swift" */ = {
+		32A0783A285C181200A3DE19 /* Build configuration list for PBXNativeTarget "Stack_Imp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32A0782F285C13C000A3DE19 /* Debug */,
-				32A07830285C13C000A3DE19 /* Release */,
+				32A0783B285C181200A3DE19 /* Debug */,
+				32A0783C285C181200A3DE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A07846285C267B00A3DE19 /* Build configuration list for PBXNativeTarget "DataStructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A07847285C267B00A3DE19 /* Debug */,
+				32A07848285C267B00A3DE19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
