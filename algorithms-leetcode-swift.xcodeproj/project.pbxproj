@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3224369C28606BBB00DE7538 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3224369B28606BBB00DE7538 /* main.swift */; };
+		322436A72860921400DE7538 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322436A62860921400DE7538 /* main.swift */; };
 		32A07839285C181200A3DE19 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A07838285C181200A3DE19 /* main.swift */; };
 		32A0784C285C27A300A3DE19 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0784B285C27A300A3DE19 /* LinkedList.swift */; };
 		32A0784D285C27BC00A3DE19 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0784B285C27A300A3DE19 /* LinkedList.swift */; };
@@ -15,6 +16,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		3224369728606BBB00DE7538 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		322436A22860921400DE7538 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -46,6 +56,8 @@
 /* Begin PBXFileReference section */
 		3224369928606BBB00DE7538 /* LinkedList-LRU */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LinkedList-LRU"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3224369B28606BBB00DE7538 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		322436A42860921400DE7538 /* Stack-ValidBrackets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Stack-ValidBrackets"; sourceTree = BUILT_PRODUCTS_DIR; };
+		322436A62860921400DE7538 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		32A07836285C181200A3DE19 /* Stack_Imp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stack_Imp; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A07838285C181200A3DE19 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		32A07842285C267B00A3DE19 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +66,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		3224369628606BBB00DE7538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322436A12860921400DE7538 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -93,6 +112,14 @@
 			path = "LinkedList-LRU";
 			sourceTree = "<group>";
 		};
+		322436A52860921400DE7538 /* Stack-ValidBrackets */ = {
+			isa = PBXGroup;
+			children = (
+				322436A62860921400DE7538 /* main.swift */,
+			);
+			path = "Stack-ValidBrackets";
+			sourceTree = "<group>";
+		};
 		32A0781E285C13C000A3DE19 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +136,7 @@
 				32A07836285C181200A3DE19 /* Stack_Imp */,
 				32A07842285C267B00A3DE19 /* DataStructure */,
 				3224369928606BBB00DE7538 /* LinkedList-LRU */,
+				322436A42860921400DE7538 /* Stack-ValidBrackets */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +144,7 @@
 		32A07831285C17BC00A3DE19 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				322436A52860921400DE7538 /* Stack-ValidBrackets */,
 				32A07837285C181200A3DE19 /* Stack_Imp */,
 			);
 			path = Stack;
@@ -155,6 +184,23 @@
 			name = "LinkedList-LRU";
 			productName = "LinkedList-LRU";
 			productReference = 3224369928606BBB00DE7538 /* LinkedList-LRU */;
+			productType = "com.apple.product-type.tool";
+		};
+		322436A32860921400DE7538 /* Stack-ValidBrackets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322436A82860921400DE7538 /* Build configuration list for PBXNativeTarget "Stack-ValidBrackets" */;
+			buildPhases = (
+				322436A02860921400DE7538 /* Sources */,
+				322436A12860921400DE7538 /* Frameworks */,
+				322436A22860921400DE7538 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stack-ValidBrackets";
+			productName = "Stack-ValidBrackets";
+			productReference = 322436A42860921400DE7538 /* Stack-ValidBrackets */;
 			productType = "com.apple.product-type.tool";
 		};
 		32A07835285C181200A3DE19 /* Stack_Imp */ = {
@@ -204,6 +250,9 @@
 					3224369828606BBB00DE7538 = {
 						CreatedOnToolsVersion = 14.0;
 					};
+					322436A32860921400DE7538 = {
+						CreatedOnToolsVersion = 14.0;
+					};
 					32A07835285C181200A3DE19 = {
 						CreatedOnToolsVersion = 14.0;
 					};
@@ -228,6 +277,7 @@
 				32A07835285C181200A3DE19 /* Stack_Imp */,
 				32A07841285C267B00A3DE19 /* DataStructure */,
 				3224369828606BBB00DE7538 /* LinkedList-LRU */,
+				322436A32860921400DE7538 /* Stack-ValidBrackets */,
 			);
 		};
 /* End PBXProject section */
@@ -238,6 +288,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3224369C28606BBB00DE7538 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322436A02860921400DE7538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322436A72860921400DE7538 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +331,28 @@
 			name = Debug;
 		};
 		3224369F28606BBB00DE7538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		322436A92860921400DE7538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		322436AA2860921400DE7538 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +528,15 @@
 			buildConfigurations = (
 				3224369E28606BBB00DE7538 /* Debug */,
 				3224369F28606BBB00DE7538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322436A82860921400DE7538 /* Build configuration list for PBXNativeTarget "Stack-ValidBrackets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322436A92860921400DE7538 /* Debug */,
+				322436AA2860921400DE7538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
