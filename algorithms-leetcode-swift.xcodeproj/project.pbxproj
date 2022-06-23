@@ -10,6 +10,9 @@
 		3224369C28606BBB00DE7538 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3224369B28606BBB00DE7538 /* main.swift */; };
 		322436A72860921400DE7538 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322436A62860921400DE7538 /* main.swift */; };
 		322716C02863F5BE0054C253 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322716BF2863F5BE0054C253 /* main.swift */; };
+		322716CC286452FC0054C253 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322716CB286452FC0054C253 /* main.swift */; };
+		322716D7286467930054C253 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322716D6286467930054C253 /* main.swift */; };
+		322716E22864708B0054C253 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322716E12864708B0054C253 /* main.swift */; };
 		32A07839285C181200A3DE19 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A07838285C181200A3DE19 /* main.swift */; };
 		32A0784C285C27A300A3DE19 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0784B285C27A300A3DE19 /* LinkedList.swift */; };
 		32A0784D285C27BC00A3DE19 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0784B285C27A300A3DE19 /* LinkedList.swift */; };
@@ -35,6 +38,33 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		322716BB2863F5BE0054C253 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		322716C7286452FC0054C253 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		322716D2286467930054C253 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		322716DD2864708B0054C253 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -70,6 +100,12 @@
 		322436A62860921400DE7538 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		322716BD2863F5BE0054C253 /* DP-PalindromicSubstrings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DP-PalindromicSubstrings"; sourceTree = BUILT_PRODUCTS_DIR; };
 		322716BF2863F5BE0054C253 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		322716C9286452FC0054C253 /* DP-LongestPalindrome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DP-LongestPalindrome"; sourceTree = BUILT_PRODUCTS_DIR; };
+		322716CB286452FC0054C253 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		322716D4286467930054C253 /* Tmp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tmp; sourceTree = BUILT_PRODUCTS_DIR; };
+		322716D6286467930054C253 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		322716DF2864708B0054C253 /* GA-LongestPalindrome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "GA-LongestPalindrome"; sourceTree = BUILT_PRODUCTS_DIR; };
+		322716E12864708B0054C253 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		32A07836285C181200A3DE19 /* Stack_Imp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stack_Imp; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A07838285C181200A3DE19 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		32A07842285C267B00A3DE19 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +128,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		322716BA2863F5BE0054C253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322716C6286452FC0054C253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322716D1286467930054C253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322716DC2864708B0054C253 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -150,18 +207,53 @@
 		322716C42863F5CF0054C253 /* DynamicProgramming */ = {
 			isa = PBXGroup;
 			children = (
+				322716CA286452FC0054C253 /* DP-LongestPalindrome */,
 				322716BE2863F5BE0054C253 /* DP-PalindromicSubstrings */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
 		};
+		322716CA286452FC0054C253 /* DP-LongestPalindrome */ = {
+			isa = PBXGroup;
+			children = (
+				322716CB286452FC0054C253 /* main.swift */,
+			);
+			path = "DP-LongestPalindrome";
+			sourceTree = "<group>";
+		};
+		322716D5286467930054C253 /* Tmp */ = {
+			isa = PBXGroup;
+			children = (
+				322716D6286467930054C253 /* main.swift */,
+			);
+			path = Tmp;
+			sourceTree = "<group>";
+		};
+		322716E02864708B0054C253 /* GA-LongestPalindrome */ = {
+			isa = PBXGroup;
+			children = (
+				322716E12864708B0054C253 /* main.swift */,
+			);
+			path = "GA-LongestPalindrome";
+			sourceTree = "<group>";
+		};
+		322716E6286470920054C253 /* GreddyAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				322716E02864708B0054C253 /* GA-LongestPalindrome */,
+			);
+			path = GreddyAlgorithm;
+			sourceTree = "<group>";
+		};
 		32A0781E285C13C000A3DE19 = {
 			isa = PBXGroup;
 			children = (
+				322716E6286470920054C253 /* GreddyAlgorithm */,
 				322716C42863F5CF0054C253 /* DynamicProgramming */,
 				3224369428606BAC00DE7538 /* LinkedList */,
 				32A07843285C267B00A3DE19 /* DataStructure */,
 				32A07831285C17BC00A3DE19 /* Stack */,
+				322716D5286467930054C253 /* Tmp */,
 				32A07828285C13C000A3DE19 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -174,6 +266,9 @@
 				3224369928606BBB00DE7538 /* LinkedList-LRU */,
 				322436A42860921400DE7538 /* Stack-ValidBrackets */,
 				322716BD2863F5BE0054C253 /* DP-PalindromicSubstrings */,
+				322716C9286452FC0054C253 /* DP-LongestPalindrome */,
+				322716D4286467930054C253 /* Tmp */,
+				322716DF2864708B0054C253 /* GA-LongestPalindrome */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,6 +352,57 @@
 			productReference = 322716BD2863F5BE0054C253 /* DP-PalindromicSubstrings */;
 			productType = "com.apple.product-type.tool";
 		};
+		322716C8286452FC0054C253 /* DP-LongestPalindrome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322716CD286452FC0054C253 /* Build configuration list for PBXNativeTarget "DP-LongestPalindrome" */;
+			buildPhases = (
+				322716C5286452FC0054C253 /* Sources */,
+				322716C6286452FC0054C253 /* Frameworks */,
+				322716C7286452FC0054C253 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DP-LongestPalindrome";
+			productName = "DP-LongestPalindrome";
+			productReference = 322716C9286452FC0054C253 /* DP-LongestPalindrome */;
+			productType = "com.apple.product-type.tool";
+		};
+		322716D3286467930054C253 /* Tmp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322716D8286467930054C253 /* Build configuration list for PBXNativeTarget "Tmp" */;
+			buildPhases = (
+				322716D0286467930054C253 /* Sources */,
+				322716D1286467930054C253 /* Frameworks */,
+				322716D2286467930054C253 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tmp;
+			productName = Tmp;
+			productReference = 322716D4286467930054C253 /* Tmp */;
+			productType = "com.apple.product-type.tool";
+		};
+		322716DE2864708B0054C253 /* GA-LongestPalindrome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322716E32864708B0054C253 /* Build configuration list for PBXNativeTarget "GA-LongestPalindrome" */;
+			buildPhases = (
+				322716DB2864708B0054C253 /* Sources */,
+				322716DC2864708B0054C253 /* Frameworks */,
+				322716DD2864708B0054C253 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GA-LongestPalindrome";
+			productName = "GA-LongestPalindrome";
+			productReference = 322716DF2864708B0054C253 /* GA-LongestPalindrome */;
+			productType = "com.apple.product-type.tool";
+		};
 		32A07835285C181200A3DE19 /* Stack_Imp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32A0783A285C181200A3DE19 /* Build configuration list for PBXNativeTarget "Stack_Imp" */;
@@ -310,6 +456,15 @@
 					322716BC2863F5BE0054C253 = {
 						CreatedOnToolsVersion = 14.0;
 					};
+					322716C8286452FC0054C253 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					322716D3286467930054C253 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					322716DE2864708B0054C253 = {
+						CreatedOnToolsVersion = 14.0;
+					};
 					32A07835285C181200A3DE19 = {
 						CreatedOnToolsVersion = 14.0;
 					};
@@ -331,11 +486,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				322716D3286467930054C253 /* Tmp */,
 				32A07835285C181200A3DE19 /* Stack_Imp */,
 				32A07841285C267B00A3DE19 /* DataStructure */,
 				3224369828606BBB00DE7538 /* LinkedList-LRU */,
 				322436A32860921400DE7538 /* Stack-ValidBrackets */,
 				322716BC2863F5BE0054C253 /* DP-PalindromicSubstrings */,
+				322716C8286452FC0054C253 /* DP-LongestPalindrome */,
+				322716DE2864708B0054C253 /* GA-LongestPalindrome */,
 			);
 		};
 /* End PBXProject section */
@@ -362,6 +520,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				322716C02863F5BE0054C253 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322716C5286452FC0054C253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322716CC286452FC0054C253 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322716D0286467930054C253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322716D7286467930054C253 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322716DB2864708B0054C253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322716E22864708B0054C253 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +623,72 @@
 			name = Debug;
 		};
 		322716C22863F5BE0054C253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		322716CE286452FC0054C253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		322716CF286452FC0054C253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		322716D9286467930054C253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		322716DA286467930054C253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		322716E42864708B0054C253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		322716E52864708B0054C253 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -634,6 +882,33 @@
 			buildConfigurations = (
 				322716C12863F5BE0054C253 /* Debug */,
 				322716C22863F5BE0054C253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322716CD286452FC0054C253 /* Build configuration list for PBXNativeTarget "DP-LongestPalindrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322716CE286452FC0054C253 /* Debug */,
+				322716CF286452FC0054C253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322716D8286467930054C253 /* Build configuration list for PBXNativeTarget "Tmp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322716D9286467930054C253 /* Debug */,
+				322716DA286467930054C253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322716E32864708B0054C253 /* Build configuration list for PBXNativeTarget "GA-LongestPalindrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322716E42864708B0054C253 /* Debug */,
+				322716E52864708B0054C253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
