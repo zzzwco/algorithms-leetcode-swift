@@ -7,8 +7,13 @@
 
 import Foundation
 
+/**
+ https://leetcode.cn/problems/valid-parentheses/
+ */
+
 class Solution {
   
+  // O(n), O(n + |Σ|)
   func isValid(_ s: String) -> Bool {
     let dict: [Character : Character] = [
       ")" : "(",

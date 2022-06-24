@@ -11,7 +11,10 @@ import Foundation
  https://leetcode.cn/problems/longest-palindromic-substring/submissions/
  */
 
+
 class Solution {
+  
+  // T: O(n^2), S: O(1)
   func longestPalindrome(_ s: String) -> String {
     if s.isEmpty { return s }
     let arr = Array(s)

@@ -13,6 +13,8 @@ import Foundation
  https://leetcode.cn/problems/OrIXps/
  */
 
+
+// put & get, O(1), O(capacity)
 class LRUCache {
   
   class Node: Equatable {

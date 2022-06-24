@@ -12,6 +12,8 @@ import Foundation
  */
 
 class Solution {
+  
+  // O(n), O(|Σ|)
   func longestPalindrome(_ s: String) -> Int {
     var table: [Character : Int] = [:]
     for char in Array(s) {

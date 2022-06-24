@@ -17,7 +17,12 @@ class Solution {
     fn2(s)
   }
   
-  // Central Diffusion
+  // MARK: - Central Diffusion
+  
+  /**
+   T: O(n^2)
+   S: O(1)
+   */
   func fn1(_ s: String) -> Int {
     if s.isEmpty { return 0 }
     let cnt = s.count
@@ -72,7 +77,10 @@ class Solution {
     return ans
   }
   
-  // DP
+  // MARK: - DP
+  
+  
+  // O(n^2), O(n)
   func fn2(_ s: String) -> Int {
     if s.isEmpty { return 0 }
     var ans: Int = 0
