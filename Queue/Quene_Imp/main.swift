@@ -11,6 +11,7 @@ import Foundation
  https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/
  */
 
+// O(1), O(n)
 class CQueue {
   
   var inStack = [Int]()
